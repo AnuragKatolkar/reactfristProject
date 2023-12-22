@@ -13,6 +13,7 @@ const page = () =>{
     setMainTask([...mainTask , {title,desc}]);
     // console.log(title);
     // console.log(desc)
+    // add new line
     settitle("");
     setdesc("");
     console.log(mainTask)
